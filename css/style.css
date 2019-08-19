@@ -1,0 +1,206 @@
+
+body{
+	padding:0;
+	margin:0;
+	font-size:small;
+}
+#header2{
+	top:0;
+	overflow:hidden;
+	background-image: url("msq2.png");
+	width:100%;
+	color:white;
+	border-bottom:3px solid blue;
+	height:80px;
+	text-align:center;
+	position:fixed;
+}
+
+#header{
+	top:0;
+	overflow:hidden;
+	background-image: url("msq2.png");
+	width:100%;
+	color:white;
+	border-bottom:3px solid blue;
+	height:auto;
+	text-align:center;
+}
+# h1,h4{
+	text-transform:uppercase;
+	text-shadow: 2px 2px green;
+	margin:15px;
+}
+
+#container h4{
+	
+text-align:center;	
+}
+#container2 h4{
+	
+text-align:center;	
+}
+#container3 h4{
+	
+text-align:center;	
+}
+
+#navigation2 ul {
+  margin-top:82px;
+  list-style: none;
+  float: left;
+  background:#f4a442;
+  width: 100%;
+  position:fixed;
+
+}
+#navigation2 ul li {
+  float: left;
+  width: auto;
+}
+#navigation2 ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+#navigation2 ul li a:hover {
+  color: #00c;
+  background: #fff;
+}
+
+
+#navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  background: #f4a442;
+  width: 100%;
+}
+#navigation ul li {
+  float: left;
+  width: auto;
+}
+#navigation ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+#navigation ul li a:hover {
+  color: #00c;
+  background: #fff;
+}
+#footer{
+	bottom:0;
+	background-image: url("msq2.png");
+	width:100%;
+	color:white;
+	border-top:3px solid blue;
+	height:auto;
+	text-align:right;
+	position:fixed;
+}
+#footer p{
+	font-size:15px;
+	text-transform:uppercase;
+	padding:2px 10px 2px 0px;
+}
+#container{
+	width:35%;
+	margin:5%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:rgb(244, 173, 66);
+	border-radius:20px;
+	box-shadow: 0px 0px 12px rgba(88, 83, 74, .7);
+	height:auto;
+}
+#container2{
+	width:60%;
+	margin:5%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:rgb(128,175,191);
+	border-radius:20px;
+	box-shadow: 0px 0px 12px rgba(88, 83, 74, .7);
+	height:auto;
+}
+#container3{
+	width:99%;
+	margin:5%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:rgb(128,175,191);
+	border-radius:20px;
+	box-shadow: 0px 0px 12px rgba(88, 83, 74, .7);
+	height:auto;
+}
+#signupbox{
+	display:none;
+	padding:40px;
+}
+#container #tabbox{
+	width:100%;
+	height:40px;	
+	border-bottom: 1px solid #fff;
+}
+#container2 #tabbox{
+	width:100%;
+	height:40px;	
+	border-bottom: 1px solid #fff;
+}
+/* now lets style the particular tabs */
+.tab{
+	width:50%;
+	height:40px;
+	display:block;
+	line-height:40px;
+	text-align:center;	 
+	-webkit-border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius:4px 4px 0px 0px;
+	 text-transform: uppercase;
+} 
+#tabbox a { 
+    float:left; 
+    text-decoration:none;
+    color:#000; 
+   }
+.select
+{
+background-color:white;
+}
+label{
+	display:block;
+	padding:3px;
+	text-transform: uppercase;
+	color:#fff;
+}
+.txtfield{
+	border-radius:5px;
+	height:25px;
+	width:80%;
+}
+.btn{
+	display:block;
+	padding:10px;
+	border-radius:7px;
+	background-color:#fff;
+	color:#000;
+	font-size:15px;
+	margin:10px 0px 0px 15px;
+	box-shadow:0px 0px 5px #fff;
+}
+#signinbox{
+	padding:15px;
+	margin:30px 0px 0px 30px;
+}
+.error{
+	color:red;
+}

@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/screen.css"> 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> 
+  <script src="js/jquery.js"></script> 
+  <script src="js/jquery.validate.js"></script>   
+  
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <title>MSQ DIAGNOSTICS</title>
+</head>
+<body>
+  <header id="header">
+  	<h1><img src="images/msq4.png" alt="Girl in a jacket" style="width:100px;height:30px;"> &nbsp WELCOME TO MSQ DIAGNOSTICS PORTAL</h1>
+  </header>
+  <section id="maincontent">
+  	<div id="container">
+  		<div id="tabbox">  	  			
+        <a href="#" id="signin" class="tab select">signin</a>
+        <a href="#" id="signup" class="tab signup">password retrieve</a>
+  		</div>
+  		<div id="formpanel">
+  			<div id="signinbox">
+  				<form action="index.php" id="signinform"method="post">
+  			<label for="email">Email Address</label>
+            <input type="email" name="email" id="email" class="txtfield" tabindex="1" autocomplete="off">
+                       
+            <label for="password">Password </label>
+            <input type="password" name="password" id="password" class="txtfield" tabindex="2" autocomplete="off">           
+            
+            <input type="submit" name="loginbtn" id="submitlogin" value="LOGIN" class="btn" tabindex="3">
+  				</form>
+  			</div>
+  			<div id="signupbox">
+  		  <form action="password_retrieve.php" id="signupform"method="post">
+                            
+          <label for="newemail">Email Address</label>
+          <input type="email" name="email" id="newemail" class="txtfield" tabindex="5" autocomplete="off">
+      
+          <input type="submit" name="registerbtn" id="registerbtn" value="SUBMIT" class="btn" tabindex="9">
+  				</form>
+  			</div>
+  		</div>
+  	</div>
+  </section>  <footer id="footer">
+  	<p>DEVELOPED BY LIONEL AND DESIGNED BY MSQ DIAGNOSTICS TEAM</p>
+  </footer>
+</body>
+</html>
